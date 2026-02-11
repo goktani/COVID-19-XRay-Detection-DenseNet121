@@ -34,6 +34,26 @@ COVID-19-XRay-Detection-DenseNet121/
 ## 📊 Key Results
 The model achieved an overall accuracy of 86% on the test set. Most importantly, it demonstrated perfect sensitivity for the critical COVID-19 class.
 
+## 📈 Visual Results
+
+### 1. Training Performance (Accuracy & Loss)
+The graphs below demonstrate the model's learning progress. Notice the stability after the fine-tuning phase starts, indicating no severe overfitting.
+<p align="center">
+  <img src="images/accuracy_loss_graph.png" alt="Training Accuracy and Loss" width="800">
+</p>
+
+### 2. Confusion Matrix
+A detailed look at the model's predictions. The diagonal elements represent correct predictions.
+<p align="center">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="600">
+</p>
+
+### 3. Explainable AI: Grad-CAM Visualization
+To validate medical relevance, **Grad-CAM** was used to visualize the specific regions of the X-Ray that influenced the model's decision. The red/yellow areas indicate high activation (focus).
+<p align="center">
+  <img src="images/gradcam_example.png" alt="Grad-CAM Heatmap" width="800">
+</p>
+
 ### Classification Report
 Class,Precision,Recall,F1-Score,Support
 Covid-19,1.00,0.96,0.98,26
