@@ -88,7 +88,7 @@ Instead of a standard fine-tuning approach, I used a two-stage process:
 ### 1. Clone the repository
 
 ```Bash
-git clone [https://github.com/goktani/COVID-19-XRay-Detection-DenseNet121.git](https://github.com/goktani/COVID-19-XRay-Detection-DenseNet121.git)
+git clone https://github.com/goktani/COVID-19-XRay-Detection-DenseNet121.git
 cd COVID-19-XRay-Detection-DenseNet121
 ```
 ### 2. Install dependencies
